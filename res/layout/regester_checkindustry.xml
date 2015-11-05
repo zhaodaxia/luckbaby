@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:padding="3dp" >
+
+        <ImageView
+            android:id="@+id/login_password_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/zc_19" />
+
+        <EditText
+            android:id="@+id/regester_getnumber_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:textSize="15sp"
+            android:hint="请选择行业"/>
+        
+		 <RelativeLayout
+            android:id="@+id/regester_getnumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp" >
+			
+		    <ImageView
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_marginLeft="50dp"
+	           android:layout_marginTop="5dp"
+	           android:src="@drawable/zc_22" />
+            
+        </RelativeLayout>
+        
+    </LinearLayout>
+    
+</LinearLayout>

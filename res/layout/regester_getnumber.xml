@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:padding="3dp" >
+
+        <ImageView
+            android:id="@+id/login_password_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/zc_14" />
+
+        <EditText
+            android:id="@+id/regester_getnumber_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:background="@null"
+            android:textSize="15sp"
+            android:hint="请输入短信验证码"/>
+        
+		 <RelativeLayout
+            android:id="@+id/regester_getnumber"
+            android:layout_width="90dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp" >
+
+            <Button
+	            android:layout_width="60dp"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/zc_11"
+	            android:layout_marginLeft="3dp"
+	            android:text="获取验证码"
+	            android:textSize="10dp"
+	            android:textColor="@android:color/holo_green_dark" />
+        </RelativeLayout>
+        
+    </LinearLayout>
+    
+</LinearLayout>

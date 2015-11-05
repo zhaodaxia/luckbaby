@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RadioGroup
+       android:id="@+id/backvisit_radioGroup1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="5dp"
+       android:orientation="horizontal" >
+
+       <RadioButton
+           android:id="@+id/backvisit_rb_today"
+           style="@style/backvisit_radiobutton_styles"
+           android:text="今日回访" />
+
+       <RadioButton
+           android:id="@+id/backvisit_rb_history"
+           style="@style/backvisit_radiobutton_styles"
+           android:text="历史回访" />
+   </RadioGroup>
+
+</LinearLayout>

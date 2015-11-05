@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#33cccc"
+    android:orientation="vertical"
+    android:id="@+id/sy_title_ll" >
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/title_withsearch_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/zc_03" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/title_withsearch_back" >
+
+            <EditText
+                android:id="@+id/title_withsearch_editText"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/zc_11"
+                >
+            </EditText>
+
+            <ImageView
+                android:id="@+id/title_withsearch_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/title_withsearch_editText"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="28dp"
+                android:src="@drawable/gd_07" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

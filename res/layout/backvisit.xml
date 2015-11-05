@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_withsearch_noright" />
+    <include layout="@layout/title_backvisit_radiogroup" />
+
+   <LinearLayout
+       android:id="@+id/backvisit_lv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" 
+       android:orientation="horizontal">
+
+       <ImageView
+           android:id="@+id/backvisit_today_line"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:background="#33cccc"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           android:visibility="invisible"
+           android:layout_height="3dp" />
+       
+       <ImageView
+           android:id="@+id/backvisit_history_line"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:background="#33cccc"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           android:visibility="invisible"
+           android:layout_height="3dp" />
+
+   </LinearLayout>
+
+   <ListView
+       android:id="@+id/backvisit_listView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+   </ListView>
+
+</LinearLayout>

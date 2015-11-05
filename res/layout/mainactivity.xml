@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+    <FrameLayout
+        android:id="@+id/mainfragment_layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0" />
+
+    <RadioGroup
+        android:id="@+id/mainfragment_radio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="5dp" >
+
+
+        <RadioButton
+            android:id="@+id/mainfragment_sy_rb"
+            style="@style/mainfagment_radiobutton_styles"
+            android:drawableTop="@drawable/mainfragment_sy_rb_selector"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/mainfragment_hy_rb"
+            style="@style/mainfagment_radiobutton_styles"
+            android:drawableTop="@drawable/mainfragment_sy_hy_selector"
+            android:text="会员" />
+
+        <RadioButton
+            android:id="@+id/mainfragment_order_rb"
+            style="@style/mainfagment_radiobutton_styles"
+            android:drawableTop="@drawable/mainfragment_sy_order_selector"
+            android:text="订单" />
+
+        <RadioButton
+            android:id="@+id/mainfragment_my_rb"
+            style="@style/mainfagment_radiobutton_styles"
+            android:drawableTop="@drawable/mainfragment_sy_my_selector"
+            android:text="我的" />
+    </RadioGroup>
+
+</LinearLayout>
